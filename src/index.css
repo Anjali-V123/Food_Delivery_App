@@ -58,3 +58,19 @@ code {
 .res-container{
   display: flex;
 }
+
+.shimmer-card{
+  width: 220px;
+  height: 350px;
+  margin: 5px;
+  border: 1px solid black;
+  background-color: #f0f0f0;
+}
+
+.shimmer-container{
+  display: flex;
+}
+
+.filter{
+  display: flex;
+}
