@@ -74,3 +74,7 @@ code {
 .filter{
   display: flex;
 }
+
+.error-text{
+  color: lightblue;
+}
