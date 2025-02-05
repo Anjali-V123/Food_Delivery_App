@@ -38,7 +38,7 @@ const Body=()=>{
             <button className="search-button" onClick={()=>{
               const newList=ResList
               const filteredList=newList.filter((res)=>
-                res.Show.toLowerCase().includes(searchText.toLowerCase())
+                res.Name.toLowerCase().includes(searchText.toLowerCase())
               );
               setnewList1(filteredList);
             }}>
@@ -47,7 +47,7 @@ const Body=()=>{
           </div>
           <button className="filter-btn" onClick={()=>{
               const filtered=newList.filter((res)=>res.Rating>4);
-              setnewList(filtered);
+              setnewList1(filtered);
             }
             }>
               Click to filter
